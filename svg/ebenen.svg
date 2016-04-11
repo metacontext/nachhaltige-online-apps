@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1300px" height="1050px" viewBox="0 0 1300 1050" enable-background="new 0 0 1300 1050" xml:space="preserve" style="background: #FFF;">
+<g id="Ebenen">
+	<polyline id="Kontrolle" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,889 917.5,889 
+		917.5,1008 877,1008"/>
+	<polyline id="Deployment" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,589 917.5,589 
+		917.5,859 877,859"/>
+	<polyline id="Entwicklung" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,339 917.5,339 
+		917.5,559 877,559"/>
+	<polyline id="Planung" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,39 917.5,39 917.5,309 
+		877,309"/>
+</g>
+<g id="Stages">
+	<g id="Monitoring_1_">
+		<rect id="Outer_6_" x="246" y="900.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_4_" x="254" y="908.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Produktion_1_">
+		<rect id="Produktion_2_" x="246" y="749.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_14_" x="254" y="757.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Testing_1_">
+		<rect id="Outer_5_" x="246" y="599.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_2_" x="254" y="607.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Commit_1">
+		<rect id="Commit" x="246" y="499.5" fill="#343434" stroke="#343434" stroke-width="6" stroke-miterlimit="10" width="600" height="50"/>
+	</g>
+	<g id="Design_1_">
+		<rect id="Outer_11_" x="690" y="349.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="156" height="100"/>
+	</g>
+	<g id="Coding_1_">
+		<rect id="Outer_3_" x="468" y="349.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="156" height="100"/>
+		<rect id="Inner_6_" x="476" y="357.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="140" height="84"/>
+		<rect id="Inner_3_" x="698" y="357.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="140" height="84"/>
+	</g>
+	<g id="DevOp_1_">
+		<rect id="Outer_9_" x="246" y="349.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="156" height="100"/>
+		<rect id="Inner_10_" x="254" y="357.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="140" height="84"/>
+	</g>
+	<g id="Modellierung_1_">
+		<rect id="Outer_1_" x="246" y="199.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_1_" x="254" y="207.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Konzeption_1_">
+		<rect id="Inner_8_" x="254" y="57.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+		<rect id="Outer_7_" x="246" y="49.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+	</g>
+</g>
+<g id="Beschriftungen">
+	<text transform="matrix(1 0 0 1 943 184.4805)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">KONZEPTION</text>
+	<text transform="matrix(1 0 0 1 943 461.1748)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">ENTWICKLUNG</text>
+	<text transform="matrix(1 0 0 1 943 739.6777)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">DEPLOYMENT</text>
+	<text transform="matrix(1 0 0 1 943 960.9941)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">KONTROLLE</text>
+	<text transform="matrix(1 0 0 1 444.3838 111.8408)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">PLANUNG</text>
+	<text transform="matrix(1 0 0 1 381.3628 261.7002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">MODELLIERUNG</text>
+	<text transform="matrix(1 0 0 1 266.4478 408.2637)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="32">DEV OP</text>
+	<text transform="matrix(1 0 0 1 482.8257 408.4785)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="32">CODING</text>
+	<text transform="matrix(1 0 0 1 709.5 408.4785)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="32">DESIGN</text>
+	<text transform="matrix(1 0 0 1 471.522 535.0059)" fill="#FFFFFF" font-family="'Open Sans'" font-weight="600" font-size="36">COMMIT</text>
+	<text transform="matrix(1 0 0 1 461.1958 662.0342)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">TESTING</text>
+	<text transform="matrix(1 0 0 1 407.4395 811.7002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">PRODUKTION</text>
+	<text transform="matrix(1 0 0 1 407.2959 962.2002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">MONITORING</text>
+</g>
+<g id="Pfeile">
+	<g id="down">
+		<g id="Long_79_">
+			<polygon fill="#474747" points="464.784,308.994 491.087,339.062 517.402,309.006"/>
+		</g>
+		<g id="Long_77_">
+			<polygon fill="#474747" points="686.889,308.993 713.191,339.062 739.508,309.007"/>
+		</g>
+		<g id="Long_75_">
+			<polygon fill="#474747" points="243.794,458.994 270.097,489.009 296.412,459.006"/>
+		</g>
+		<g id="Long_73_">
+			<polygon fill="#474747" points="464.784,458.994 491.087,489.008 517.402,459.006"/>
+		</g>
+		<g id="Long_71_">
+			<polygon fill="#474747" points="687.273,458.994 713.578,489.008 739.893,459.006"/>
+		</g>
+		<g id="Long_69_">
+			<polygon fill="#474747" points="297.691,558.993 323.994,589 350.309,559.007"/>
+		</g>
+		<g id="Long_67_">
+			<polygon fill="#474747" points="523.691,708.993 549.994,739.197 576.309,709.007"/>
+		</g>
+		<g id="Long_65_">
+			<polygon fill="#474747" points="297.695,159.485 323.998,189.5 350.312,159.499"/>
+		</g>
+		<g id="Long_63_">
+			<polygon fill="#474747" points="242.837,309.029 269.185,339 295.455,308.963"/>
+		</g>
+	</g>
+	<g id="up">
+		<g id="Long_18_">
+			<polygon fill="#8C8C8C" points="350.301,889.007 323.998,858.749 297.683,888.993"/>
+		</g>
+		<g id="Long_20_">
+			<polygon fill="#8C8C8C" points="794.309,889.006 768.006,858.775 741.691,888.994"/>
+		</g>
+		<g id="Long_24_">
+			<polygon fill="#8C8C8C" points="794.309,589.006 768.006,558.955 741.691,588.994"/>
+		</g>
+		<g id="Long_26_">
+			<polygon fill="#8C8C8C" points="794.309,189.006 768.006,158.946 741.691,188.994"/>
+		</g>
+		<g id="Long_28_">
+			<polygon fill="#8C8C8C" points="848.406,489.006 822.104,458.938 795.789,488.994"/>
+		</g>
+		<g id="Long_30_">
+			<polygon fill="#8C8C8C" points="848.406,339.006 822.104,308.938 795.789,338.994"/>
+		</g>
+		<g id="Long_32_">
+			<polygon fill="#8C8C8C" points="626.896,489.006 600.592,458.938 574.278,488.994"/>
+		</g>
+		<g id="Long_34_">
+			<polygon fill="#8C8C8C" points="626.896,339.006 600.592,308.938 574.278,338.994"/>
+		</g>
+		<g id="Long_36_">
+			<polygon fill="#8C8C8C" points="404.908,489.006 378.604,458.938 352.29,488.994"/>
+		</g>
+		<g id="Long_38_">
+			<polygon fill="#8C8C8C" points="404.908,339.006 378.604,308.942 352.29,338.994"/>
+		</g>
+	</g>
+	<g id="bi">
+		<g id="Long_1_">
+			<polygon fill="#C4213B" points="653.97,373.604 641.989,399.924 654.009,426.223"/>
+		</g>
+		<g id="Long_27_">
+			<polygon fill="#C4213B" points="659.411,426.231 671.393,399.913 659.374,373.613"/>
+		</g>
+		<g id="Long_35_">
+			<polygon fill="#C4213B" points="431.97,373.604 419.989,399.924 432.008,426.223"/>
+		</g>
+		<g id="Long_29_">
+			<polygon fill="#C4213B" points="437.411,426.231 449.393,399.913 437.375,373.613"/>
+		</g>
+	</g>
+</g>
+<g id="Kommunikation">
+	<rect id="Box" x="100" y="50.5" fill="#D9DADB" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="80" height="950"/>
+	<text transform="matrix(-4.371139e-08 -1 1 -4.371139e-08 155.332 710.5938)" fill="#343434" font-family="'Open Sans'" font-weight="600" font-size="42">KOMMUNIKATION</text>
+</g>
+</svg>

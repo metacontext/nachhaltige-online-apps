@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nachhaltige Online-Applikationen in den Geisteswissenschaften. Modellierung und Implementierung.</title>
+
+    <!-- meta information -->
+    <meta name="author" content="Torsten Schrade" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+
+    <!-- CSS reset, grid and presentation styles -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/skeleton.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- chartist -->
+    <link rel="stylesheet" href="css/chartist.min.css" />
+
+    <!-- unite gallery -->
+    <link rel="stylesheet" href="vendor/unitegallery/css/unite-gallery.css" type="text/css" />
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- html5 dataset shim for IE -->
+    <script src="js/html5-dataset.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>
+            Your browser <strong>doesn't support the features required</strong> by impress.js,
+            so you are presented with a simplified version of this presentation.
+        </p>
+        <p>
+            For the best experience please use the latest <strong>Chrome</strong>, <strong>Safari</strong>
+            or <strong>Firefox</strong> browser.
+        </p>
+    </div>
+
+    <div id="impress">
+
+        <div class="step">
+            <h4>11.04.2016 | Hochschule Mainz</h4>
+
+            <h1>Nachhaltige Online-Applikationen in den Geisteswissenschaften</h1>
+
+            <h2 class="red">Modellierung &amp; Implementierung</h2>
+
+            <h5 class="byline">
+                <strong>Torsten Schrade | Download:
+                <a href="https://git.io/nachhaltige-online-apps" title="Slides und Daten auf GitHub">
+                    https://git.io/nachhaltige-online-apps
+                </a>
+                </strong>
+            </h5>
+        </div>
+
+        <div class="step">
+            <h2>Gliederung</h2>
+            <ol>
+                <li>
+                    Digitale Nachhaltigkeit in den Geisteswissenschaften
+                </li>
+                <li>
+                    Herausforderungen für nachhaltige <br/>
+                    geisteswissenschaftliche Online-Applikationen
+                </li>
+                <li>
+                    Ebenen einer nachhaltigen Modellierung und <br/>
+                    Implementierung von Online-Applikationen
+                </li>
+                <li>
+                    Anwendungsbeispiel: Das Online-Bildarchiv des<br/>
+                    Projektes »Corpus Vitrearum Medii Aevi«
+                </li>
+            </ol>
+        </div>
+
+        <div class="step">
+            <h1 class="red">01</h1>
+            <h2 class="oneandhalf">
+                Digitale Nachhaltigkeit in den Geisteswissenschaften
+            </h2>
+        </div>
+
+        <div class="step centered">
+            <h2>Das Problem</h2>
+            <h1>404 - Not Found</h1>
+            <p>
+                <a href="https://pixabay.com/de/roboter-android-148989/" title="Android, Lizenz CC0">
+                    <img src="img/robot.png" height="200" />
+                </a>
+            </p>
+            <h3>Uuuups!!!</h3>
+            <h4>
+                Ihre geisteswissenschaftliche Online-Applikation konnte nicht gefunden werden...
+            </h4>
+        </div>
+
+        <div class="step">
+            <h2>Gründe für Nichtverfügbarkeit</h2>
+            <div class="row">
+                <div class="six columns">
+                    <a href="https://pixabay.com/de/altes-haus-meine-stadt-317565/" title="Altes Haus, Lizenz CC0">
+                        <img width="80%" src="img/old-house.jpg" />
+                    </a>
+                </div>
+                <div class="six columns">
+                    <ul style="position: relative; left: -120px;">
+                        <li class="substep">Ausgelaufene Projektfinanzierung</li>
+                        <li class="substep">Entwickler_in nicht mehr verfügbar</li>
+                        <li class="substep">Keine Dokumentation</li>
+                        <li class="substep">Infrastruktur veraltet / nicht wartbar</li>
+                        <li class="substep">Programmcode veraltet / unverständlich</li>
+                        <li class="substep">Daten sind verschwunden</li>
+                        <li class="substep">Sicherheitslücken</li>
+                        <li class="substep">Keine Softwaretests</li>
+                        <li class="substep">Kein Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Aktualität des Themas</h2>
+            <h3 class="red">
+                Memorandum »Digitale Forschungsinfrastrukturen« (30.03.2016)
+            </h3>
+            <blockquote class="justify">
+                Ziel der Unterzeichnenden ist es, die Voraussetzungen für die <strong>nachhaltige Bereitstellung digitaler
+                Forschungsinfrastrukturen</strong> für die Geistes- und Kulturwissenschaften innerhalb Deutschlands zu schaffen,
+                damit ihre Forschenden und Lehrenden zur Spitzenforschung und deren Entwicklung langfristig beitragen können.
+            </blockquote>
+            <p class="small">
+                Quelle DARIAH: <a href="http://dx.doi.org/10.3249/DARIAH-00000001">http://dx.doi.org/10.3249/DARIAH-00000001</a>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>Aktualität für die Forschungsförderung</h2>
+            <h3 class="red">
+                DFG-Förderkriterien für wissenschaftliche Editionen (11.2015)
+            </h3>
+            <blockquote class="justify">
+                Weil bei der Texterstellung inzwischen immer digitale Werkzeuge zum Einsatz kommen,
+                ist zu gewährleisten, dass die Arbeitsweise dem state-of-the-art moderner
+                Veröffentlichungsmethoden entspricht<br/>
+                (Softwareeinsatz, Arbeitsprozesse, Qualitätssicherung).
+            </blockquote>
+            <p class="small">
+                Quelle DFG: <a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf">http://bit.ly/1X8kG4U</a>, S. 2
+            </p>
+        </div>
+
+        <div class="step">
+            <h2 style="margin-bottom: 20px;">Aktuelle Publikation zum Thema</h2>
+            <div class="row">
+                <div class="four columns" style="margin-top: 7px;">
+                    <a href="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf" title="PDF aufrufen">
+                        <img class="outline" width="86%" src="img/Research_Software_Sustainability_Cover.png" title="Simon Hettrick: Research Software Sustainability. Report on a Knowledge Exchange Workshop.">
+                    </a>
+                </div>
+                <div class="eight columns" style="position: relative; left: -50px;">
+                    <h4>
+                        Simon Hettrick, The Software Sustainability Institute
+                    </h4>
+                    <h5>February 2016</h5>
+                    <h5>PDF: <a href="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf">http://bit.ly/23jxw7D</a></h5>
+                    <blockquote class="substep" style="font-size: 26px;">
+                        Many researchers know how to code, but few understand
+                        the wider set of skills that are needed to develop reliable,
+                        reproducible and reusable software. [...] software
+                        engineering should be incorporated [...]
+                        at the very start of a research career
+                        <cite>[S.14]</cite>
+                    </blockquote>
+                    <div class="substep">
+                        <h4 class="red">
+                            ▶︎ Digital Humanities "Craftsmanship"
+                        </h4>
+                        <p>Siehe auch: <a href="https://de.wikipedia.org/wiki/Software_Craftsmanship">https://de.wikipedia.org/wiki/Software_Craftsmanship</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">02</h1>
+            <h2 style="font-size: 42px;" class="oneandhalf">
+                Herausforderungen für nachhaltige geisteswissenschaftliche Online-Applikationen
+            </h2>
+        </div>
+
+        <div class="step">
+            <h2>Forschungsdaten</h2>
+            <h4 class="red">Beispiele für geisteswissenschaftliche Forschungsobjekte</h4>
+            <div id="researchdata" style="display:none;">
+                <a href="http://www.regesta-imperii.de/id/0797-03-31_1_0_1_1_0_920_336">
+                    <img alt="Geschichte: Urkunde Karls des Großen von 797"
+                         src="img/forschungsdaten_thumbs_ri.png"
+                         data-image="img/forschungsdaten_ri.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. https://upload.wikimedia.org/wikipedia/commons/b/b1/Dipl%C3%B4me_de_Charlemagne_donn%C3%A9_le_31_mars_797._-_Archives_Nationales_-_AE-II-42.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="http://id.corpusvitrearum.de/images/3515">
+                    <img alt="Kunstgeschichte: Glasmalerei"
+                         src="img/forschungsdaten_thumbs_cvma.png"
+                         data-image="img/forschungsdaten_cvma.jpg"
+                         data-description="Rüdiger Tonojan, CVMA Deutschland/Freiburg, CC-BY 4.0 (http://creativecommons.org/licenses/by/4.0/)"
+                         style="display:none">
+                </a>
+
+                <a href="http://nbn-resolving.de/urn:nbn:de:0238-di002mz00k0001208">
+                    <img alt="Epigraphik: Inschrift auf dem Mainzer Domportal"
+                         src="img/forschungsdaten_thumbs_inschriften.png"
+                         data-image="img/forschungsdaten_inschriften.jpg"
+                         data-description="Von Benutzer:Moguntiner - Dieses Foto wurde im Mai 2005 von Benutzer:Moguntiner aufgenommen und ist eine verbesserte Version des Bildes vom 21.03.05, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=23986757"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.controversia-et-confessio.de/cc-digital.html">
+                    <img alt="Theologie: Religiöse Streitschriften"
+                         src="img/forschungsdaten_thumbs_controversia.png"
+                         data-image="img/forschungsdaten_controversia.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. Eber-Epitaph in der Stadtkirche Wittenberg, gemalt von Lucas Cranach d. J. https://commons.wikimedia.org/wiki/File:Weinberg-WB-1569.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.gluck-gesamtausgabe.de/id/1-38-00-0">
+                    <img alt="Musik: Autograph aus Glucks Oper Alceste"
+                         src="img/forschungsdaten_thumbs_gluck.png"
+                         data-image="img/forschungsdaten_gluck.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. https://de.wikipedia.org/wiki/Christoph_Willibald_Gluck#/media/File:Christoph_Willibald_Gluck_-_Misero_e_che_far%C3%B2_from_Alceste._%28BL_Zweig_MS_34_f._1r%29.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.namenforschung.net/id/name/30/1">
+                    <img alt="Linguistik: Kartierte Verteilung des Namens 'Meier'"
+                         src="img/forschungsdaten_thumbs_dfd.png"
+                         data-image="img/forschungsdaten_dfd.jpg"
+                         data-description="Namenforschung.Net"
+                         style="display:none">
+                </a>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Hoher Bedarf</h2>
+            <h3 class="red">Projekte mit digitalen Komponenten seit 2000 (ADW Mainz)</h3>
+            <div class="ct-container">
+                <div class="ct-chart ct-major-twelfth project-count"></div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Projektlaufzeiten</h2>
+            <h3 class="red">Grundlagenforschung im Akademienprogramm (ADW Mainz)</h3>
+            <img src="svg/timeline.svg" width="100%" style="position: relative; left: -3%" />
+        </div>
+
+        <div class="step">
+            <div style="position: relative; top: -30px;">
+                <h2>Herausforderungen</h2>
+                <h4 class="red pull-up">Projektlaufzeiten im Verhältnis zum technischen Innovationszyklus</h4>
+            </div>
+            <div style="margin-top: 40px;">
+                <img src="svg/technologies.svg" width="70%" />
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">03</h1>
+            <h2 style="font-size: 42px;" class="oneandhalf">
+                Ebenen einer nachhaltigen Modellierung und Implementierung von Online-Applikationen
+            </h2>
+        </div>
+
+        <div class="step">
+            <h2>Kommunikation? Kommunikation!</h2>
+            <h3 class="red pull-up">Der Webdesigner und die Hecke...</h3>
+            <div class="row">
+                <div class="four columns">
+                    <img class="pull-up" src="svg/hedge.svg" width="100%" />
+                    <p>
+                        <strong>Ein Twitter-Erlebnis von <a href="https://www.webrocker.de/2014/08/06/der-webdesigner-und-die-hecke/">@webrocker</a></strong>
+                    </p>
+                    <blockquote class="substep medium justify pull-up">
+                        Mein Medium "Web" ist extrem komplex, verändert sich ständig und erfordert
+                        die konstante Bereitschaft, sich weiterzubilden [...]
+                        Nach einem in dieser Hinsicht eher recht interessanten
+                        Arbeitstag twitterte ich gestern Abend also:<br/>
+                        <span class="small push-down">
+                            efeu hecke geschnitten. das leben
+                            kann so schön einfach sein… einfache arbeit,
+                            sofort ergebnis, brain idled… toll.
+                            und keiner redet rein.<br/>
+                            <span class="red">— a Tom (@webrocker) 5. August 2014</span>
+                        </span>
+                    </blockquote>
+                </div>
+                <div class="eight columns">
+                    <h4 class="substep">Die Antwort-Lawine</h4>
+                    <blockquote class="substep medium justify pull-up">
+                        <span class="small">
+                            @webrocker „Der alte Schnitt der Hecke hat uns besser gefallen.
+                            Können wir die zum Vergleich noch mal sehen?“<br/>
+                            <span class="red">— Frederic Hemberger (@fhemberger) 5. August 2014</span>
+                        </span>
+                    </blockquote>
+                    <blockquote class="substep medium justify pull-up">
+                        <span class="small">
+                            @fhemberger @webrocker „Das grün ist irgendwie … nicht grün genug. Findet meine Frau auch.
+                            Und … kann man die Hecke größer machen?“<br/>
+                            <span class="red">— Matthias Mees (@yellowled) 5. August 2014</span>
+                        </span>
+                    </blockquote>
+                    <blockquote class="substep medium justify pull-up">
+                        <span class="small">
+                            "Das ist doch nur Garten, keine Raketenwissenschaft" @MadeMyDay<br/>
+                            <span class="red">— a Tom (@webrocker) 6. August 2014</span>
+                        </span>
+                    </blockquote>
+                    <blockquote class="substep medium justify pull-up">
+                        <span class="small">
+                            @webrocker Wir sind ein bisschen enttäuscht, das das Design der Hecke nicht so richtig
+                            unserem Entwurf in Word entspricht.<br/>
+                            <span class="red">— ker0zene (@ker0zene) 6. August 2014</span>
+                        </span>
+                    </blockquote>
+                    <blockquote class="substep medium justify pull-up">
+                        <span class="small">
+                            Möchte eine einfache #Hecke, die ich nicht pflegen muss. Eine Reihe Blätter,
+                            keine Äste, keine Wurzeln. Untergrund ist Beton. @webrocker<br/>
+                            <span class="red">— Regimekritiker (@regimekritiker) 7. August 2014</span>
+                        </span>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="row centered mfp-lightbox">
+                <div class="twelfe columns">
+                    <h2 style="font-size: 42px; margin-left: -130px;">Nachhaltiger Entwicklungsprozess</h2>
+                    <a href="svg/ebenen.svg">
+                        <img src="svg/ebenen.svg" width="70%" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="row mfp-lightbox">
+                <div class="eight columns" style="position: relative; left: 160px;">
+                    <h2 style="margin-bottom: 20px;">Konzeptionsebene</h2>
+                    <div style="margin-bottom: 20px;">
+                        <a href="svg/ebenen_konzeption.svg">
+                            <img src="svg/ebenen_konzeption.svg" width="100%" class="dotted" />
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="six columns figure">
+                                <a href="img/konzeption_ddd.png">
+                                    <img src="img/konzeption_ddd.png" height="100%" />
+                                </a>
+                                <span class="fig-no">1</span>
+
+                            </div>
+                            <div class="six columns figure">
+                                <a href="img/konzeption_bdd.png">
+                                    <img src="img/konzeption_bdd.png" height="100%" />
+                                </a>
+                                <span class="fig-no">2</span>
+                            </div>
+                        </div>
+                        <div class="row" style="text-align: center;">
+                            <div class="six columns">
+                                <p><strong>Domain Driven Design</strong></p>
+                            </div>
+                            <div class="six columns">
+                                <p><strong>Behaviour Driven Development</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="row mfp-lightbox">
+                <div class="eight columns" style="position: relative; left: 160px;">
+                    <h2 style="margin-bottom: 20px;">Entwicklungsebene</h2>
+                    <div style="margin-bottom: 10px;">
+                        <a href="svg/ebenen_entwicklung.svg">
+                            <img src="svg/ebenen_entwicklung.svg" width="100%" class="dotted" />
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="six columns figure">
+                                <a href="img/entwicklung_devop.png">
+                                    <img src="img/entwicklung_devop.png" height="100%" />
+                                </a>
+                                <span class="fig-no">1</span>
+                            </div>
+                            <div class="six columns figure">
+                                <a href="img/entwicklung_git.png">
+                                    <img src="img/entwicklung_git.png" height="100%" />
+                                </a>
+                                <span class="fig-no">2</span>
+                            </div>
+                        </div>
+                        <div class="row" style="text-align: center;">
+                            <div class="six columns">
+                                <p><strong>Development-Operations</strong></p>
+                            </div>
+                            <div class="six columns">
+                                <p><strong>Versionskontrolle</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="row mfp-lightbox">
+                <h2 style="position: relative; left: 30px; margin-bottom: 30px;">Deployment- und Kontrollebene</h2>
+                <div class="six columns" style="position: relative; left: 160px;">
+                    <div style="margin-bottom: 10px;">
+                        <a href="svg/ebenen_deploy_control.svg">
+                            <img src="svg/ebenen_deploy_control.svg" width="100%" class="dotted" />
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <div class="six columns figure">
+                                <a href="img/deploy_control_bdd.gif">
+                                    <img src="img/deploy_control_bdd.gif" height="100%" />
+                                </a>
+                                <span class="fig-no">1</span>
+                            </div>
+                            <div class="six columns figure">
+                                <a href="img/deploy_control_netdata.gif">
+                                    <img src="img/deploy_control_netdata.gif" height="100%" />
+                                </a>
+                                <span class="fig-no">2</span>
+                            </div>
+                        </div>
+                        <div class="row" style="text-align: center;">
+                            <div class="six columns">
+                                <p><strong>Behat Testrun</strong></p>
+                            </div>
+                            <div class="six columns">
+                                <p><strong>Netdata Monitoring</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="centered">
+                <h2 style="font-size: 42px; margin-left: -130px;">Prozess im Überblick</h2>
+                <img src="svg/ebenen.svg" width="70%" />
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">04</h1>
+            <h2>Anwendungsbeispiel</h2>
+            <h3>
+                Das Online-Bildarchiv des Projektes »Corpus Vitrearum Medii Aevi«
+            </h3>
+        </div>
+
+        <div class="step">
+            <h2>Das Online-Bildarchiv des CVMA</h2>
+            <h3 class="red pull-up">Einige Funktionalitäten im Überblick</h3>
+            <div class="row mfp-lightbox">
+                <div class="seven columns">
+                    <a href="img/screenshots_cvma_01.png">
+                        <img class="dotted" src="img/screenshots_cvma_01.png" alt="Screenshot" title="Startseite des CVMA" width="100%" />
+                    </a>
+                    <p>
+                        Website: <a href="http://www.corpusvitrearum.de/">http://www.corpusvitrearum.de/</a>
+                    </p>
+                </div>
+                <div class="four columns">
+                    <a href="img/screenshots_cvma_02.png">
+                        <img class="dotted" src="img/screenshots_cvma_02.png" alt="" title="" width="100%" />
+                    </a>
+                    <a href="img/screenshots_cvma_03.png">
+                        <img class="dotted" src="img/screenshots_cvma_03.png" alt="" title="" width="100%" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Konzeption</h2>
+            <h3 class="red pull-up">Systemneutrale Bild- &amp; Metadaten</h3>
+            <div class="row mfp-lightbox">
+                <div class="five columns">
+                    <a href="img/cvma_workflow.png">
+                        <img class="dotted" src="img/cvma_workflow.png" alt="" title="" height="550" />
+                    </a>
+                </div>
+                <div class="three columns">
+                    <a href="img/cvma_xmp_exiftool.jpg">
+                        <img class="dotted" src="img/cvma_xmp_exiftool.jpg" alt="" title="" width="100%" />
+                    </a>
+                    <p class="small" style="margin: -10px 0 5px 0;"><strong>ExiftoolGui</strong></p>
+                    <a href="img/cvma_xmp_ps.jpg">
+                        <img class="dotted" src="img/cvma_xmp_ps.jpg" alt="" title="" width="100%" />
+                    </a>
+                    <p class="small" style="margin: -10px 0 5px 0;"><strong>Adobe Photoshop</strong></p>
+                    <a href="img/cvma_xmp_typo3.png">
+                        <img class="dotted" src="img/cvma_xmp_typo3.png" alt="" title="" width="100%" />
+                    </a>
+                    <p class="small" style="margin: -10px 0 5px 0;"><strong>TYPO3 Backend</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div style="margin-top: 50px;">
+                <h2>Modellierung &amp; Entwicklung</h2>
+                <h3 class="red pull-up">Einheitliche und nachvollziehbare Sprache auf allen Ebenen</h3>
+            </div>
+            <div class="row mfp-lightbox centered">
+                <div class="four columns">
+                    <p>
+                        <a href="img/cvma_ddd.png">
+                            <img class="dotted" src="img/cvma_ddd.png" alt="" title="" width="100%" style="display: block; height: 245px;" />
+                        </a>
+                        <strong>Domain Model</strong>
+                    </p>
+                    <p>
+                        <a href="img/cvma_code_ddd.png">
+                            <img class="dotted" src="img/cvma_code_ddd.png" alt="" title="" width="100%" style="display: block; height: 245px;" />
+                        </a>
+                        <strong>Applikations-Code</strong>
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p>
+                        <a href="img/cvma_code_db.png">
+                            <img class="dotted" src="img/cvma_code_db.png" alt="" title="" width="100%" style="display: block; height: 245px;" />
+                        </a>
+                        <strong>Datenbankschema</strong>
+                    </p>
+                    <p>
+                        <a href="img/cvma_rest_xmp.png">
+                            <img class="dotted" src="img/cvma_rest_xmp.png" alt="" title="" width="100%" style="display: block; height: 245px;" />
+                        </a>
+                        <strong>XMP Schnittstelle</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Deployment &amp; Kontrolle</h2>
+            <h3 class="red pull-up">Testing &amp; Monitoring</h3>
+            <div class="row mfp-lightbox centered">
+                <div class="six columns">
+                    <p>
+                        <a href="img/cvma_deploy_bdd.png">
+                            <img class="dotted" src="img/cvma_deploy_bdd.png" alt="" title="" width="100%" />
+                        </a>
+                        <strong>BDD Tests</strong>
+                    </p>
+                </div>
+                <div class="six columns">
+                    <p>
+                        <a href="img/cvma_deploy_piwik.png">
+                            <img class="dotted" src="img/cvma_deploy_piwik.png" alt="" title="" width="100%" />
+                        </a>
+                        <strong>Webstatistiken</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Fazit</h2>
+            <h3 class="red">Nachhaltige Modellierung und Implementierung geisteswissenschaftlicher Online-Applikationen bedeutet...</h3>
+            <ul>
+                <li class="substep">... eine beständige Kommunikation aller Projektbeteiligten.</li>
+                <li class="substep">... ein gemeinsames Vokabular festzulegen und dies auf allen Ebenen anzuwenden.</li>
+                <li class="substep">... forschungsgetriebene, agile Entwicklungsmethoden einzusetzen.</li>
+                <li class="substep">... einen nachvollziehbaren Entwicklungsprozess durch Versionskontrolle zu gewährleisten.</li>
+                <li class="substep">... die Applikations-Infrastruktur zu virtualisieren und zu automatisieren.</li>
+                <li class="substep">... Softwaretests vor jedem Live-Deployment durchzuführen.</li>
+                <li class="substep">... die Applikation im Produktivbetrieb kontinuierlich zu überwachen.</li>
+                <li class="substep">... die Forschungsdaten über Schnittstellen bereitzustellen.</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <div class="centered">
+                <img src="svg/android-161007.svg" alt="" title="" width="180" />
+                <h1>200 - OK</h1>
+                <h3>Vielen Dank für Ihre Aufmerksamkeit</h3>
+                <h5><a href="#step-28">Literatur &amp; Verwendete Software</a></h5>
+            </div>
+        </div>
+
+        <div class="step">
+
+            <h2>Literatur &amp; Verwendete Software</h2>
+
+            <h4>Literatur</h4>
+
+            <ul class="small pull-up">
+                <li>
+                    <a href="http://agilemanifesto.org/iso/de/">Fowler u.a., Manifest für Agile Softwareentwicklung, 2001</a>
+                </li>
+                <li>
+                    <a href="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf">Hettrick, Research Software Sustainability, Edinburgh 2016</a>
+                </li>
+                <li>
+                    <a href="http://www.status-quo-agile.de/">Hochschule Koblenz, "Status Quo Agile", Koblenz 2015</a>
+                </li>
+                <li>
+                    <a href="https://hds.hebis.de/ubmz/Record/HEB350821194">Passig/Jander, Weniger schlecht programmieren, Köln 2014</a>
+                </li>
+                <li>
+                    <a href="http://www.amazon.de/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577">Vernon, Implementing Domain Driven Design, Upper Saddle River NJ u.a 2013</a>
+                </li>
+                <li>
+                    <a href="https://www.dpunkt.de/buecher/4934/continuous-delivery.html">Wolff, Continuous Delivery, Heidelberg 2015</a>
+                </li>
+            </ul>
+
+            <h4>Verwendete Software</h4>
+
+            <ul class="small pull-up">
+                <li>
+                    <a href="https://github.com/impress/impress.js">Impress.js</a> (Präsentation)
+                </li>
+                <li>
+                    <a href="https://jquery.com/">jQuery</a> (Animationen)
+                </li>
+                <li>
+                    <a href="https://github.com/vvvmax/unitegallery/">Unite Gallery</a> (Bildergallerien)
+                </li>
+                <li>
+                    <a href="https://github.com/dimsemenov/Magnific-Popup">Magnific Popup</a> (Lightbox)
+                </li>
+                <li>
+                    <a href="https://github.com/gionkunz/chartist-js">Chartist</a> (Diagramme)
+                </li>
+                <li>
+                    <a href="http://getskeleton.com/">Skeleton CSS</a> (CSS Boilerplate)
+                </li>
+            </ul>
+
+            <h4>Download</h4>
+            <ul class="small pull-up">
+                <li>
+                    <a href="https://github.com/metacontext/nachhaltige-online-apps">
+                        https://github.com/metacontext/nachhaltige-online-apps
+                    </a>
+                </li>
+                <li>
+                    Alle Inhalte, Illustrationen und Bilder sind frei zur Weiterverwendung und Modifikation.<br/>
+                    Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>, Torsten Schrade
+                </li>
+            </ul>
+            <p>
+        </div>
+
+    </div>
+
+    <!-- chartist -->
+    <script src="js/chartist.min.js"></script>
+    <script src="js/chartist.charts.js"></script>
+
+    <!-- jquery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+
+    <!-- unite gallery -->
+    <script type="text/javascript" src="vendor/unitegallery/js/unitegallery.min.js"></script>
+    <script type="text/javascript" src="vendor/unitegallery/themes/tiles/ug-theme-tiles.js"></script>
+    <script type="text/javascript" src="js/unite.gallery.js"></script>
+
+    <!-- magnific popup -->
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/magnific-popup.lightbox.js"></script>
+
+    <!-- impress.js -->
+    <script src="js/impress.js"></script>
+    <script src="js/impress-slidenum.js"></script>
+    <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+
+</body>
+</html>

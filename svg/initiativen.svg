@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ATTLIST svg
+		xmlns:attrib CDATA #IMPLIED
+>
+<!ATTLIST rect
+		attrib:tooltip CDATA #IMPLIED
+>
+<!ATTLIST path
+		attrib:name CDATA #IMPLIED
+>
+]>
+<svg id="initiativen" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:attrib="http://www.carto.net/attrib"
+	 x="0px" y="0px" width="580" height="380" viewBox="0 0 580 380" enable-background="new 0 0 580 380"
+	 xml:space="preserve" onload="init()">
+	<script type="text/ecmascript" xlink:href="../js/mapApp.js"/>
+	<script type="text/ecmascript" xlink:href="../js/mapApp_helperfunctions.js"/>
+	<script type="text/ecmascript" xlink:href="../js/mapApp_timer.js"/>
+	<script type="text/ecmascript">
+		var myMapApp = new mapApp(false,undefined);
+		function initLater() {
+				// this timeout is because of the bbox bug in Firefox which prevents to have access to bbox in onload scripts
+			window.setTimeout("init()",100);
+		}
+		function init() {
+				//tooltip styles
+			var tooltipTextStyles = {"font-family":"Open Sans","fill":"dimgray","font-size":7.5};
+			var tooltipRectStyles = {"fill":"white","stroke":"dimgray"};
+			myMapApp.initTooltips("toolTip",tooltipTextStyles,tooltipRectStyles,10,20,3);
+				//add tooltip to element
+			myMapApp.addTooltip("dariah",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("dhforum",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("nestor",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("bmbf",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("textgrid",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("clarin",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("allianz",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("dfg",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("rfii",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("dini",undefined,false,false,"currentTarget",undefined);
+			myMapApp.addTooltip("wr",undefined,false,false,"currentTarget",undefined);
+		}
+		function updateTooltipWithMouseCoords(evt) {
+			var coords = myMapApp.calcCoord(evt);
+			evt.target.setAttributeNS(attribNS,"tooltip","X: "+Math.round(coords.x)+"\\nY: "+Math.round(coords.y));
+		}
+	</script>
+	<g id="network">
+		<line fill="none" stroke="#C6C6C6" stroke-width="6" stroke-miterlimit="10" x1="198.466" y1="54.199" x2="164.716" y2="143.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="132.466" y1="33.449" x2="76.216" y2="96.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="33.466" y1="174.449" x2="76.216" y2="97.699"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="33.716" y1="174.449" x2="67.716" y2="268.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="174.966" y1="308.699" x2="67.466" y2="267.699"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="174.716" y1="308.449" x2="267.216" y2="271.449"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="343.466" y1="149.699" x2="266.716" y2="272.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="343.466" y1="149.699" x2="362.966" y2="75.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="278.466" y1="44.949" x2="363.716" y2="76.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="198.466" y1="53.949" x2="278.966" y2="44.449"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="76.216" y1="96.699" x2="67.716" y2="267.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="252.466" y1="185.449" x2="174.966" y2="309.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="33.466" y1="173.949" x2="174.966" y2="309.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="266.966" y1="271.449" x2="67.966" y2="267.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="252.466" y1="184.949" x2="343.216" y2="149.449"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="75.966" y1="96.199" x2="174.966" y2="308.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="252.716" y1="185.199" x2="67.466" y2="268.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="33.966" y1="174.199" x2="267.466" y2="271.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="343.466" y1="149.449" x2="278.716" y2="45.199"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="343.466" y1="149.199" x2="174.466" y2="308.699"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="252.716" y1="185.199" x2="278.966" y2="44.949"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="343.466" y1="149.699" x2="198.716" y2="59.699"/>
+		<line fill="none" stroke="#C6C6C6" stroke-width="3" stroke-miterlimit="10" x1="252.716" y1="185.199" x2="199.216" y2="60.199"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="131.966" y1="32.949" x2="164.716" y2="143.699"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="76.466" y1="96.449" x2="164.466" y2="143.699"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="32.966" y1="173.949" x2="164.966" y2="144.116"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="67.132" y1="268.116" x2="165.466" y2="143.116"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="165.854" y1="143.779" x2="174.411" y2="309.119"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="164.716" y1="143.949" x2="252.216" y2="185.449"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="164.466" y1="143.949" x2="278.466" y2="44.949"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="164.807" y1="143.881" x2="343.66" y2="148.674"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="164.966" y1="144.199" x2="267.549" y2="272.449"/>
+		<line fill="none" stroke="#9D9D9C" stroke-width="8" stroke-miterlimit="10" x1="164.549" y1="144.116" x2="363.966" y2="71.699"/>
+	</g>
+	<g id="circles">
+		<g>
+			<circle fill="#FFFFFF" stroke="#C52634" stroke-width="3" stroke-miterlimit="10" cx="165.218" cy="143.875" r="55.276"/>
+			<circle fill="none" stroke="#706F6F" stroke-width="6" stroke-miterlimit="10" cx="165.057" cy="143.875" r="47.19"/>
+			<text transform="matrix(1 0 0 1 140 134)">
+				<tspan x="3" y="-13" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">Digitale</tspan>
+				<tspan x="-15" y="3" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">Nachhaltigkeit</tspan>
+				<tspan x="-16" y="19" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">in den Geistes-</tspan>
+				<tspan x="-12" y="34" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">wissenschaft-</tspan>
+				<tspan x="16" y="48" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">en</tspan>
+			</text>
+		</g>
+		<g id="dariah" attrib:tooltip="»DARIAH-DE unterstützt digital arbeitende Geistes- und KulturwissenschaftlerInnen\n mit Digital Humanities-Tools und fachwissenschaftlichen Diensten in den Bereichen\n Forschung und Lehre. Dafür baut das Projekt eine digitale Forschungsinfrastruktur\n für Werkzeuge und Forschungsdaten auf und entwickelt Materialien für Lehre und\n Weiterbildung im Bereich der Digital Humanities (DH)« \n Quelle: https://de.dariah.eu/">
+			<circle fill="#FFFFFF" stroke="#575756" stroke-width="2" stroke-miterlimit="10" cx="76.27" cy="96.408" r="32.599"/>
+			<circle fill="none" stroke="#DE4F5D" stroke-width="4" stroke-miterlimit="10" cx="76.27" cy="96.408" r="26.929"/>
+			<a xlink:href="https://de.dariah.eu/" target="_blank" xlink:title="Website der DARIAH-DE Forschungsinfrastruktur">
+				<text transform="matrix(1 0 0 1 55.2524 97.5444)" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">DARIAH</text>
+				<text transform="matrix(1 0 0 1 69.2522 109.5445)" fill="#3C3C3B" font-family="'Open Sans'" font-size="12">DE</text>
+			</a>
+		</g>
+		<g id="dhforum" attrib:tooltip="»[Der Verbund akzentuiert] mit 'langfristig\n verfügbar' im Gegensatz zu 'langzeit-archiviert',\n dass archivierte digitale Daten auch in Zukunft\n noch suchbar und auffindbar, zugänglich,\n vernetzbar und analysierbar sind sowie zur\n Verifizierung existierender Forschungen und\n zum Formulieren neuer Forschungsfragen\n nachgenutzt werden können« \n Quelle: http://www.ifdhberlin.de/nachhaltigkeit/">
+			<circle fill="#FFFFFF" stroke="#878787" stroke-width="2" stroke-miterlimit="10" cx="343.009" cy="149.674" r="32.599"/>
+			<path fill="none" stroke="#8C1A25" stroke-width="4" stroke-miterlimit="10" d="M351.876,124
+				c14.044,4.897,21.458,20.251,16.562,34.295c-4.608,13.213-17.874,22.285-34.295,16.56c-14.044-4.898-21.458-20.252-16.562-34.294
+				C322.479,126.518,337.833,119.104,351.876,124z"/>
+			<a xlink:href="http://www.ifdhberlin.de/nachhaltigkeit/" target="_blank" xlink:title="Website des DH-Forums Berlin">
+				<text transform="matrix(1 0 0 1 326 146)">
+					<tspan x="0" y="-1" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">DH Forum</tspan>
+					<tspan x="-6.5" y="7" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">Nachhaltigkeit</tspan>
+					<tspan x="5" y="15" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">Berlin</tspan>
+				</text>
+			</a>
+		</g>
+		<g id="nestor" attrib:tooltip="»In nestor arbeiten Bibliotheken,\n Archive, Museen sowie führende\n Experten gemeinsam zum Thema\n Langzeitarchivierung und\n Langzeitverfügbarkeit\n digitaler Quellen.« \n Quelle: http://www.langzeitarchivierung.de/">
+			<circle fill="#FFFFFF" stroke="#706F6F" stroke-width="2" stroke-miterlimit="10" cx="363" cy="76.251" r="32.599"/>
+			<circle fill="none" stroke="#D83342" stroke-width="4" stroke-miterlimit="10" cx="363.001" cy="76.251" r="26.929"/>
+			<a xlink:href="http://www.langzeitarchivierung.de/Subsites/nestor/DE/Home/home_node.html" target="_blank" xlink:title="Website von nestor">
+				<text transform="matrix(1 0 0 1 342 81.4121)" fill="#3C3C3B" font-family="'Open Sans'" font-size="14">nestor</text>
+			</a>
+		</g>
+		<g id="bmbf" attrib:tooltip="»Das BMBF beteiligt sich an der Förderung fünf geistes- und sozialwissenschaftlicher ESFRI-Projekte,\n in denen es u.a. um die Bereitstellung von erhobenen und aufbereiteten Daten, von Sprach-, Text-, Ton-,\n Bild- und anderen Ressourcen, webbasierten Werkzeugen und Diensten sowie von virtuellen\n Forschungsumgebungen zur internationalen wissenschaftlichen Zusammenarbeit geht.«\n Quelle: https://www.bmbf.de/de/informationsinfrastrukturen-745.html">
+			<circle fill="#FFFFFF" stroke="#878787" stroke-width="2" stroke-miterlimit="10" cx="67.71" cy="268.043" r="32.599"/>
+			<circle fill="none" stroke="#D83342" stroke-width="4" stroke-miterlimit="10" cx="67.71" cy="268.041" r="26.929"/>
+			<a xlink:href="https://www.bmbf.de/de/informationsinfrastrukturen-745.html" target="_blank" xlink:title="Website des BMBF zu Informationsinfrastrukturen für die Geistes- und Sozialwissenschaften">
+				<text transform="matrix(1 0 0 1 50 273.8135)" fill="#3C3C3B" font-family="'Open Sans'" font-size="14">BMBF</text>
+			</a>
+		</g>
+		<g id="textgrid" attrib:tooltip="»TextGrid ist zum einen eine Open-Source-Software (TextGrid Laboratory),\n die verschiedene Tools und Dienste zur kollaborativen Bearbeitung\n und Generierung von Forschungsdaten in einer geschützten Umgebung\n bereitstellt, sowie, als zweite Komponente, ein durchsuch- und zitierbares\n Langzeitarchiv (TextGrid Repository), das die nachhaltige und dauerhafte\n Verfügbarkeit und Nachnutzbarkeit der Forschungsdaten in einer stabilen,\n sicheren Umgebung gewährleistet«\n Quelle: https://de.dariah.eu/textgrid">
+			<circle fill="#FFFFFF" stroke="#9D9D9C" stroke-width="2" stroke-miterlimit="10" cx="33.599" cy="174.357" r="32.599"/>
+			<circle fill="none" stroke="#8C1A25" stroke-width="4" stroke-miterlimit="10" cx="33.599" cy="174.355" r="26.929"/>
+			<a xlink:href="https://textgrid.de/" target="_blank" xlink:title="Website der DARIAH-DE Forschungsinfrastruktur">
+				<text transform="matrix(1 0 0 1 17 172.6523)">
+					<tspan x="0" y="0" fill="#3C3C3B" font-family="'Open Sans'" font-size="17">Text</tspan>
+					<tspan x="-0.133" y="15" fill="#3C3C3B" font-family="'Open Sans'" font-size="17">Grid</tspan>
+				</text>
+			</a>
+		</g>
+		<g id="clarin" attrib:tooltip="»Die Forschungsinfrastruktur von CLARIN-D unterstützt die Geistes-\n und Sozialwissenschaften dabei, ihre digitalen Ressourcen in nachhaltiger,\n offener und interoperabler Weise zur Verfügung zu stellen.«\n Quelle: http://clarin2015.informatik.uni-leipzig.de/">
+			<circle fill="#FFFFFF" stroke="#706F6F" stroke-width="2" stroke-miterlimit="10" cx="266.932" cy="272.051" r="32.599"/>
+			<circle fill="none" stroke="#DE4F5D" stroke-width="4" stroke-miterlimit="10" cx="266.932" cy="272.051" r="26.929"/>
+			<a xlink:href="http://de.clarin.eu/de/" target="_blank" xlink:title="Website der CLARIN-D Forschungsinfrastruktur">
+				<text transform="matrix(1 0 0 1 245 271.6406)">
+					<tspan x="0" y="5" fill="#3C3C3B" font-family="'Open Sans'" font-size="10">CLARIN-D</tspan>
+				</text>
+			</a>
+		</g>
+		<g id="allianz" attrib:tooltip="»Die Schwerpunktinitiative 'Digitale Information' ist eine  gemeinsame Initiative der Allianz\n der Wissenschaftsorganisationen zur Verbesserung der Informationsversorgung in Forschung\n und Lehre. Mit der Initiative verfolgen die Wissenschaftsorganisationen das Ziel, digitale\n Publikationen, Forschungsdaten und Quellenbestände möglichst umfassend und offen bereit\n zu stellen und damit auch ihre Nachnutzbarkeit in anderen Forschungskontexten zu gewährleisten,\n optimale Voraussetzungen für die internationale Verbreitung und Rezeption von Publikationen\n und Forschungsdaten aus der deutschen Wissenschaft zu schaffen, die langfristige Verfügbarkeit\n der weltweit erworbenen digitalen Medien und Inhalte sowie ihre Integration in die digitale\n Forschungsumgebung sicherzustellen und IT-gestützte Formen des wissenschaftlichen Arbeitens\n durch innovative Informationstechnologien und digitale Methoden zu unterstützen.«\n Quelle: http://www.allianzinitiative.de/">
+			<circle fill="#FFFFFF" stroke="#878787" stroke-width="2" stroke-miterlimit="10" cx="132.487" cy="33.599" r="32.599"/>
+			<circle fill="none" stroke="#A7212C" stroke-width="4" stroke-miterlimit="10" cx="132.487" cy="33.599" r="26.929"/>
+			<a xlink:href="http://www.allianzinitiative.de/" target="_blank" xlink:title="Website der Allianzinitiative">
+				<text transform="matrix(1 0 0 1 119 20.8257)">
+					<tspan x="-5" y="10" fill="#3C3C3B" font-family="'Open Sans'" font-size="11">Allianz-</tspan>
+					<tspan x="-7.566" y="22" fill="#3C3C3B" font-family="'Open Sans'" font-size="11">initiative</tspan>
+				</text>
+			</a>
+		</g>
+		<g id="dfg" attrib:tooltip="»Qualitätsgesicherte Forschungsdaten bilden einen Grundpfeiler\n wissenschaftlicher Erkenntnis. Ihre nachhaltige Sicherung, Aufarbeitung\n und Nachnutzung sind daher wichtige wissenschaftspolitische Anliegen,\n die die Deutsche Forschungsgemeinschaft mit diesem Förderangebot\n unterstützt.«\n Quelle: http://bit.ly/1W0MRED">
+			<circle fill="#FFFFFF" stroke="#706F6F" stroke-width="2" stroke-miterlimit="10" cx="252.817" cy="185.541" r="32.599"/>
+			<circle fill="none" stroke="#D83342" stroke-width="4" stroke-miterlimit="10" cx="252.817" cy="185.541" r="26.929"/>
+			<a xlink:href="http://www.dfg.de/foerderung/programme/infrastruktur/lis/lis_foerderangebote/forschungsdaten/" target="_blank" xlink:title="Förderprogramm Infrastrukturen für Forschungsdaten der DFG">
+				<text transform="matrix(1 0 0 1 233 192.6094)" fill="#3C3C3B" font-family="'Open Sans'" font-size="20">DFG</text>
+			</a>
+		</g>
+		<g id="rfii" attrib:tooltip="»Die Arbeitsgruppe Nachhaltigkeit [des Rates for Informationsinfrastrukturen]\n setzt sich zum Ziel, über eine nachhaltige Entwicklung des Infrastruktursystems\n zu beraten. Sie wird dazu zunächst das Beispiel Forschungsdaten in den Fokus\n nehmen. Im gesamten Netzwerk der Informationsinfrastruktur-Dienste gelte es,\n Verknüpfungen zu schaffen und Doppelarbeit zu reduzieren. Beleuchtet werden\n die wissenschaftspolitische und strategische Dimension, sowie die\n organisatorische, wirtschaftliche und rechtliche Dimension einer nachhaltigen\n Entwicklung.«\n Quelle: http://www.rfii.de/de/category/der-rat/">
+			<circle fill="#FFFFFF" stroke="#706F6F" stroke-width="2" stroke-miterlimit="10" cx="278.487" cy="45.056" r="32.599"/>
+			<circle fill="none" stroke="#DE4F5D" stroke-width="4" stroke-miterlimit="10" cx="278.487" cy="45.055" r="26.929"/>
+			<a xlink:href="http://www.rfii.de/de/index/" target="_blank" xlink:title="Website der Rates für Informationsinfrastrukturen">
+				<text transform="matrix(1 0 0 1 270 36)">
+					<tspan x="-2" y="-2" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">Rat für</tspan>
+					<tspan x="-13.573" y="7" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">Informations-</tspan>
+					<tspan x="-0.025" y="16" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">infra-</tspan>
+					<tspan x="-8.025" y="25" fill="#3C3C3B" font-family="'Open Sans'" font-size="7">strukturen</tspan>
+				</text>
+			</a>
+		</g>
+		<g id="dini" attrib:tooltip="»Die Deutsche Initiative für Netzwerkinformation (DINI) [...] wurde gegründet,\n um die Verbesserung der Informations- und Kommunikationsdienstleistungen\n und die dafür notwendige Entwicklung der Informationsinfrastrukturen an den\n Hochschulen sowie regional und überregional zu fördern. Durch Absprachen\n und Arbeitsteilung zwischen den Infrastruktureinrichtungen soll das Informationstechnik-\n und Dienstleistungsangebot weiter verbessert werden. Hierfür ist auch die gemeinsame\n Entwicklung von Standards und Empfehlungen erforderlich.\n Februar 2016: Herausgabe der 'Broschüre zur Nachhaltigkeit von Software\n im wissenschaftlichen Kontext'.«\n Quelle: https://dini.de/ueber-dini/; Broschüre: http://bit.ly/1Y6155t">
+			<circle fill="#FFFFFF" stroke="#9D9D9C" stroke-width="2" stroke-miterlimit="10" cx="198.378" cy="54.483" r="32.599"/>
+			<circle fill="none" stroke="#8C1A25" stroke-width="4" stroke-miterlimit="10" cx="198.378" cy="54.482" r="26.929"/>
+			<a xlink:href="https://dini.de/" target="_blank" xlink:title="Website der DINI">
+				<text transform="matrix(1 0 0 1 182 59.937)" fill="#3C3C3B" font-family="'Open Sans'" font-size="16">DINI</text>
+			</a>
+		</g>
+		<g id="wr" attrib:tooltip="»Umfangreiche Forschungsinfrastrukturen sind neben den Forschenden und den Institutionen\n eine weitere unabdingbare Voraussetzung für ein leistungsfähiges Wissenschaftssystem. [...]\n 2015 hat der Wissenschaftsrat die 'Bewertung umfangreicher Forschungsinfrastrukturvorhaben\n für eine Nationale Roadmap' in das Arbeitsprogramm aufgenommen und einen mandatierten\n Ausschuss eingesetzt.«\n Quelle: bit.ly/1qdafmf">
+			<circle fill="#FFFFFF" stroke="#878787" stroke-width="2" stroke-miterlimit="10" cx="175.044" cy="308.722" r="32.599"/>
+			<circle fill="none" stroke="#A7212C" stroke-width="4" stroke-miterlimit="10" cx="175.044" cy="308.721" r="26.929"/>
+			<a xlink:href="http://www.wissenschaftsrat.de/arbeitsbereiche-arbeitsprogramm/forschungsinfrastrukturen/start.html" target="_blank" xlink:title="Website des Wissenschaftsrates zu Forscungsinfrastrukturen">
+				<text transform="matrix(1 0 0 1 157 303)" fill="#3C3C3B" font-family="'Open Sans'" font-size="10">Wissen-</text>
+				<text transform="matrix(1 0 0 1 157 315)" fill="#3C3C3B" font-family="'Open Sans'" font-size="10">schafts-</text>
+				<text transform="matrix(1 0 0 1 167 326)" fill="#3C3C3B" font-family="'Open Sans'" font-size="10">rat</text>
+			</a>
+		</g>
+	</g>
+	<g id="toolTip" />
+</svg>

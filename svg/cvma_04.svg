@@ -1,0 +1,129 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="844pt" height="447pt" viewBox="0.00 0.00 844.00 447.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 443)">
+<title>d1e112</title>
+<polygon style="fill:white;stroke:white;" points="-4,4 -4,-443 840,-443 840,4 -4,4"/>
+<!-- http://iconclass.org/73G412 -->
+<g id="node1" class="node">
+            <title>http://iconclass.org/73G412</title>
+<a xlink:href="http://iconclass.org/73G412" xlink:title="http://iconclass.org/73G412">
+<polygon style="fill:none;stroke:black;" points="658,-439.5 512,-439.5 512,-418.5 658,-418.5 658,-439.5"/>
+<text text-anchor="middle" x="585" y="-426.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/73G412</text>
+</a>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622 -->
+<g id="node2" class="node">
+            <title>http://id.corpusvitrearum.de/images/2622</title>
+<a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+<polygon style="fill:none;stroke:black;" points="215,-271 1,-271 1,-237 215,-237 215,-271"/>
+<text text-anchor="middle" x="108" y="-258" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+<text text-anchor="middle" x="108" y="-245" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+</a>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/73G412 -->
+<g id="edge16" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/73G412</title>
+<path style="fill:none;stroke:blue;" d="M120,-271C139,-298 180,-349 227,-378 310,-428 425,-436 501,-434"/>
+<polygon style="fill:blue;stroke:blue;" points="501,-437.5 511,-434 501,-430.5 501,-437.5"/>
+<text text-anchor="middle" x="275" y="-416.5" style="font-family:Times New Roman;font-size:10.00px;">skos:related</text>
+</g>
+<!-- http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+<g id="node4" class="node">
+            <title>http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+<a xlink:href="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22" xlink:title="http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22">
+<polygon style="fill:none;stroke:black;" points="835,-397.5 335,-397.5 335,-376.5 835,-376.5 835,-397.5"/>
+<text text-anchor="middle" x="585" y="-384.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</text>
+</a>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22 -->
+<g id="edge2" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://www.europeana.eu/portal/search?q=what%3A%22http%3A%2F%2Ficonclass.org%2F11G31%22</title>
+<path style="fill:none;stroke:blue;" d="M136,-271C159,-286 195,-307 227,-323 274,-345 285,-354 334,-366 351,-370 368,-373 386,-376"/>
+<polygon style="fill:blue;stroke:blue;" points="385.701,-379.488 396,-377 386.398,-372.522 385.701,-379.488"/>
+<text text-anchor="middle" x="275" y="-363.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+</g>
+<!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)&quot; -->
+<g id="node6" class="node">
+            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)"</title>
+<text text-anchor="middle" x="585" y="-341" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+<text text-anchor="middle" x="585" y="-328" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan)"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)&quot; -->
+<g id="edge4" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan)"</title>
+<path style="fill:none;stroke:blue;" d="M171,-271C216,-283 279,-298 334,-308 371,-314 410,-320 448,-324"/>
+<polygon style="fill:blue;stroke:blue;" points="447.701,-327.488 458,-325 448.398,-320.522 447.701,-327.488"/>
+<text text-anchor="middle" x="275" y="-308.5" style="font-family:Times New Roman;font-size:10.00px;">skos:prefLabel</text>
+</g>
+<!-- &quot;Hl. Michael als Drachentöter&quot; -->
+<g id="node8" class="node">
+            <title>"Hl. Michael als Drachentöter"</title>
+<text text-anchor="middle" x="585" y="-276.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+<g id="edge6" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+<path style="fill:none;stroke:blue;" d="M216,-260C299,-264 415,-270 495,-274"/>
+<polygon style="fill:blue;stroke:blue;" points="494.701,-277.488 505,-275 495.398,-270.522 494.701,-277.488"/>
+<text text-anchor="middle" x="275" y="-267.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+</g>
+<!-- http://iconclass.org/11G31 -->
+<g id="node10" class="node">
+            <title>http://iconclass.org/11G31</title>
+<a xlink:href="http://iconclass.org/11G31" xlink:title="http://iconclass.org/11G31">
+<polygon style="fill:none;stroke:black;" points="655,-239.5 515,-239.5 515,-218.5 655,-218.5 655,-239.5"/>
+<text text-anchor="middle" x="585" y="-226.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/11G31</text>
+</a>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/11G31 -->
+<g id="edge8" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/11G31</title>
+<path style="fill:none;stroke:blue;" d="M216,-242C219,-241 223,-241 227,-241 322,-233 431,-231 504,-230"/>
+<polygon style="fill:blue;stroke:blue;" points="504,-233.5 514,-230 504,-226.5 504,-233.5"/>
+<text text-anchor="middle" x="275" y="-244.5" style="font-family:Times New Roman;font-size:10.00px;">rdfs:seeAlso</text>
+</g>
+<!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+<g id="node12" class="node">
+            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+<text text-anchor="middle" x="585" y="-184.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+<text text-anchor="middle" x="585" y="-171.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+<text text-anchor="middle" x="585" y="-158.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+<text text-anchor="middle" x="585" y="-145.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+<text text-anchor="middle" x="585" y="-132.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+<g id="edge10" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+<path style="fill:none;stroke:blue;" d="M155,-237C176,-230 203,-221 227,-216 299,-199 381,-186 448,-176"/>
+<polygon style="fill:blue;stroke:blue;" points="448.398,-179.478 458,-175 447.701,-172.512 448.398,-179.478"/>
+<text text-anchor="middle" x="275" y="-219.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+</g>
+<!-- http://iconclass.org/71E464 -->
+<g id="node14" class="node">
+            <title>http://iconclass.org/71E464</title>
+<a xlink:href="http://iconclass.org/71E464" xlink:title="http://iconclass.org/71E464">
+<polygon style="fill:none;stroke:black;" points="658,-103.5 512,-103.5 512,-82.5 658,-82.5 658,-103.5"/>
+<text text-anchor="middle" x="585" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://iconclass.org/71E464</text>
+</a>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;http://iconclass.org/71E464 -->
+<g id="edge12" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;http://iconclass.org/71E464</title>
+<path style="fill:none;stroke:blue;" d="M128,-237C165,-206 250,-141 334,-114 388,-96 452,-91 502,-90"/>
+<polygon style="fill:blue;stroke:blue;" points="502,-93.5001 512,-90 502,-86.5001 502,-93.5001"/>
+<text text-anchor="middle" x="275" y="-165.5" style="font-family:Times New Roman;font-size:10.00px;">skos:related</text>
+</g>
+<!-- &quot;the Archangel Michael fighting the dragon (devil,\nSatan)&quot; -->
+<g id="node16" class="node">
+            <title>"the Archangel Michael fighting the dragon (devil,\nSatan)"</title>
+<text text-anchor="middle" x="585" y="-47" style="font-family:Times New Roman;font-size:10.00px;">"the Archangel Michael fighting the dragon (devil,</text>
+<text text-anchor="middle" x="585" y="-34" style="font-family:Times New Roman;font-size:10.00px;">Satan)"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;the Archangel Michael fighting the dragon (devil,\nSatan)&quot; -->
+<g id="edge14" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"the Archangel Michael fighting the dragon (devil,\nSatan)"</title>
+<path style="fill:none;stroke:blue;" d="M116,-237C133,-205 173,-134 227,-99 292,-56 378,-42 449,-38"/>
+<polygon style="fill:blue;stroke:blue;" points="449,-41.5001 459,-38 449,-34.5001 449,-41.5001"/>
+<text text-anchor="middle" x="275" y="-102.5" style="font-family:Times New Roman;font-size:10.00px;">skos:prefLabel</text>
+</g>
+</g>
+</svg>

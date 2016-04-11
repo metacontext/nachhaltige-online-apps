@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="830px" height="420px" viewBox="0 0 830 420" enable-background="new 0 0 830 420" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<polygon fill="#474747" points="3.056,78.782 782.486,78.782 782.486,101.919 828.056,75.611 782.486,49.303 782.486,72.437 
+				3.056,72.437"/>
+		</g>
+	</g>
+</g>
+<line fill="none" stroke="#343434" stroke-width="6" stroke-miterlimit="10" x1="180.833" y1="2" x2="180.833" y2="417.277"/>
+<g>
+	<g>
+		<g>
+			<polygon fill="#474747" points="3.056,149.418 148.327,149.418 148.327,160.987 171.111,147.833 148.327,134.679 
+				148.327,146.246 3.056,146.246"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon fill="#474747" points="3.056,211.225 148.327,211.225 148.327,222.793 171.111,209.639 148.327,196.485 
+				148.327,208.052 3.056,208.052"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon fill="#474747" points="3.056,275.586 148.327,275.586 148.327,287.154 171.111,274 148.327,260.846 148.327,272.414 
+				3.056,272.414"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon fill="#474747" points="3.056,339.697 148.327,339.697 148.327,351.266 171.111,338.111 148.327,324.957 
+				148.327,336.523 3.056,336.523"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 607.0547 60.333)" font-family="'Open Sans'" font-size="72">2039</text>
+<text transform="matrix(1 0 0 1 488.999 281)" fill="#BE0A26" font-family="'Open Sans'" font-size="96">???</text>
+<text transform="matrix(1 0 0 1 10.2212 60.3335)" font-family="'Open Sans'" font-size="36">3 Jahre</text>
+<text transform="matrix(1 0 0 1 196.8325 160.1108)" font-family="'Open Sans'" font-size="36">PHP</text>
+<text transform="matrix(1 0 0 1 196.8325 222)" font-family="'Open Sans'" font-size="36">MySQL</text>
+<text transform="matrix(1 0 0 1 196.8325 288.5547)" font-family="'Open Sans'" font-size="36">TYPO3</text>
+<text transform="matrix(1 0 0 1 196.8325 351.0547)" font-family="'Open Sans'" font-size="36">Debian</text>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="600px" viewBox="203.5 441.75 1000 600" enable-background="new 203.5 441.75 1000 600"
+	 xml:space="preserve" style="background: #FFF;">
+<g id="Ebenen">
+	<polyline id="Kontrolle" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,889 917.5,889 
+		917.5,1008 877,1008"/>
+	<polyline id="Deployment" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,589 917.5,589 
+		917.5,859 877,859"/>
+</g>
+<g id="Stages">
+	<g id="Monitoring_1_">
+		<rect id="Outer_6_" x="246" y="900.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_4_" x="254" y="908.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Produktion_1_">
+		<rect id="Produktion_2_" x="246" y="749.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_14_" x="254" y="757.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Testing_1_">
+		<rect id="Outer_5_" x="246" y="599.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+			<rect id="Inner_2_" x="254" y="607.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Commit_1">
+		<rect id="Commit" x="246" y="499.5" fill="#343434" stroke="#343434" stroke-width="6" stroke-miterlimit="10" width="600" height="50"/>
+	</g>
+</g>
+<g id="Beschriftungen">
+	<text transform="matrix(1 0 0 1 943 739.6777)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">DEPLOYMENT</text>
+	<text transform="matrix(1 0 0 1 943 960.9941)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">KONTROLLE</text>
+	<text transform="matrix(1 0 0 1 471.522 535.0059)" fill="#FFFFFF" font-family="'Open Sans'" font-weight="600" font-size="36">COMMIT</text>
+	<text transform="matrix(1 0 0 1 461.1958 662.0342)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">TESTING</text>
+	<text transform="matrix(1 0 0 1 407.4395 811.7002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">PRODUKTION</text>
+	<text transform="matrix(1 0 0 1 407.2959 962.2002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">MONITORING</text>
+</g>
+<g id="Pfeile">
+	<g id="down">
+		<g id="Long_69_">
+			<polygon fill="#474747" points="297.691,558.993 323.994,589 350.309,559.007"/>
+		</g>
+		<g id="Long_67_">
+			<polygon fill="#474747" points="523.691,708.993 549.994,739.197 576.309,709.007"/>
+		</g>
+	</g>
+	<g id="up">
+		<g id="Long_18_">
+			<polygon fill="#8C8C8C" points="350.301,889.007 323.998,858.749 297.683,888.993"/>
+		</g>
+		<g id="Long_20_">
+			<polygon fill="#8C8C8C" points="794.309,889.006 768.006,858.775 741.691,888.994"/>
+		</g>
+		<g id="Long_24_">
+			<polygon fill="#8C8C8C" points="794.309,589.006 768.006,558.955 741.691,588.994"/>
+		</g>
+	</g>
+</g>
+</svg>

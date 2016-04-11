@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="310px" viewBox="0 0 400 310" enable-background="new 0 0 400 300" xml:space="preserve">
+<circle id="inner_x5F_circle" fill="none" stroke="#BD0926" stroke-width="3" stroke-miterlimit="10" cx="191.999" cy="169.542" r="40"/>
+<circle id="middle_x5F_circle" fill="none" stroke="#BD0926" stroke-width="3" stroke-miterlimit="10" cx="191.999" cy="169.542" r="70"/>
+<circle id="outer_x5F_circle" fill="none" stroke="#BD0926" stroke-width="3" stroke-miterlimit="10" cx="191.999" cy="169.542" r="100"/>
+<g id="arrow_x5F_left">
+	<g>
+		<g>
+			<polygon fill="#474747" points="190.875,168.424 106.942,252.812 98.74,244.652 91.999,270.084 117.393,263.205 109.192,255.049 
+				193.125,170.661"/>
+		</g>
+	</g>
+</g>
+<g id="arrow_x5F_right">
+	<g>
+		<g>
+			<polygon fill="#474747" points="190.88,170.666 275.732,255.134 267.572,263.332 293,270.084 286.132,244.688 277.973,252.885 
+				193.119,168.417"/>
+		</g>
+	</g>
+</g>
+<g id="arrow_x5F_top">
+	<g>
+		<g>
+			<polygon fill="#474747" points="193.58,169.875 193.587,53.45 205.154,53.451 192.003,30.665 178.848,53.449 190.415,53.45 
+				190.407,169.875"/>
+		</g>
+	</g>
+</g>
+<text id="time" transform="matrix(1 0 0 1 302.5 129.542)" fill="#BD0926" font-family="'Open Sans'" font-size="21">Zeit</text>
+<text id="quality" transform="matrix(1 0 0 1 200.999 298.042)" fill="#343434" font-family="'Open Sans'" font-size="21">Erkenntnisgewinn</text>
+<text id="quantity" transform="matrix(1 0 0 1 39.999 298.042)" fill="#343434" font-family="'Open Sans'" font-size="21">Quantität</text>
+<text id="heterogenity" transform="matrix(1 0 0 1 126.999 16.042)" fill="#343434" font-family="'Open Sans'" font-size="21">Heterogenität</text>
+</svg>

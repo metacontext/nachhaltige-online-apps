@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="350px" viewBox="199.5 0.75 1000 350" enable-background="new 199.5 0.75 1000 350" xml:space="preserve" style="background: #FFF;">
+<g id="Ebenen">
+	<polyline id="Planung" fill="none" stroke="#343434" stroke-width="3" stroke-miterlimit="10" points="877,39 917.5,39 917.5,309 
+		877,309"/>
+</g>
+<g id="Stages">
+	<g id="Monitoring_1_">
+		<path id="Outer_2_" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" d="M246,1000.5"/>
+		<path id="Outer_10_" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" d="M846,1000.5"/>
+		<path id="Inner_5_" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" d="M254,992.5"/>
+		<path id="Inner_11_" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" d="M838,992.5"/>
+	</g>
+	<g id="Modellierung_1_">
+		<rect id="Outer_1_" x="246" y="199.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+		<rect id="Inner_1_" x="254" y="207.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+	</g>
+	<g id="Konzeption_1_">
+		<rect id="Inner_8_" x="254" y="57.5" fill="none" stroke="#BE0A26" stroke-width="6" stroke-miterlimit="10" width="584" height="84"/>
+		<rect id="Outer_7_" x="246" y="49.5" fill="none" stroke="#707173" stroke-width="6" stroke-miterlimit="10" width="600" height="100"/>
+	</g>
+</g>
+<g id="Beschriftungen">
+	<text transform="matrix(1 0 0 1 943 184.4805)" fill="#BE0A26" font-family="'Open Sans'" font-weight="600" font-size="36">KONZEPTION</text>
+	<text transform="matrix(1 0 0 1 444.3838 111.8408)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">PLANUNG</text>
+	<text transform="matrix(1 0 0 1 381.3628 261.7002)" fill="#3E3D40" font-family="'Open Sans'" font-weight="600" font-size="42">MODELLIERUNG</text>
+</g>
+<g id="Pfeile">
+	<g id="down">
+		<g id="Long_65_">
+			<polygon fill="#474747" points="297.695,159.485 323.998,189.5 350.312,159.499 			"/>
+		</g>
+	</g>
+	<g id="up">
+		<g id="Long_26_">
+			<polygon fill="#8C8C8C" points="794.309,189.006 768.006,158.946 741.691,188.994 			"/>
+		</g>
+	</g>
+</g>
+</svg>

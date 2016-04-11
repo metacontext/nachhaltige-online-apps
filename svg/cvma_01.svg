@@ -1,0 +1,43 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="596pt" height="163pt" viewBox="0.00 0.00 596.00 163.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 159)">
+<title>d1e17</title>
+<polygon style="fill:white;stroke:white;" points="-4,4 -4,-159 592,-159 592,4 -4,4"/>
+<!-- http://id.corpusvitrearum.de/images/2622 -->
+<g id="node1" class="node">
+            <title>http://id.corpusvitrearum.de/images/2622</title>
+<a xlink:href="http://id.corpusvitrearum.de/images/2622" xlink:title="crm:E18_Physical_Thing, skos:Concept:\nhttp://id.corpusvitrearum.de/images/2622">
+<polygon style="fill:none;stroke:black;" points="215,-98 1,-98 1,-64 215,-64 215,-98"/>
+<text text-anchor="middle" x="108" y="-85" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">crm:E18_Physical_Thing, skos:Concept:</text>
+<text text-anchor="middle" x="108" y="-72" style="font-family:Times New Roman;font-size:10.00px;fill:blue;">http://id.corpusvitrearum.de/images/2622</text>
+</a>
+</g>
+<!-- &quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+<g id="node3" class="node">
+            <title>"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+<text text-anchor="middle" x="461" y="-142.5" style="font-family:Times New Roman;font-size:10.00px;">"der Erzengel Michael kämpft gegen den Drachen</text>
+<text text-anchor="middle" x="461" y="-129.5" style="font-family:Times New Roman;font-size:10.00px;">(Teufel, Satan) Drache · Engel · Erzengel ·</text>
+<text text-anchor="middle" x="461" y="-116.5" style="font-family:Times New Roman;font-size:10.00px;">Michael · Religion · Satan · Teufel · christliche</text>
+<text text-anchor="middle" x="461" y="-103.5" style="font-family:Times New Roman;font-size:10.00px;">Religion · kämpfen · mit Füßen treten · trampeln ·</text>
+<text text-anchor="middle" x="461" y="-90.5" style="font-family:Times New Roman;font-size:10.00px;">übernatürlich"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich&quot; -->
+<g id="edge2" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"der Erzengel Michael kämpft gegen den Drachen\n(Teufel, Satan) Drache · Engel · Erzengel ·\nMichael · Religion · Satan · Teufel · christliche\nReligion · kämpfen · mit Füßen treten · trampeln ·\nübernatürlich"</title>
+<path style="fill:none;stroke:blue;" d="M216,-93C250,-97 288,-100 324,-105"/>
+<polygon style="fill:blue;stroke:blue;" points="323.701,-108.488 334,-106 324.398,-101.522 323.701,-108.488"/>
+<text text-anchor="middle" x="275" y="-105.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:description</text>
+</g>
+<!-- &quot;Hl. Michael als Drachentöter&quot; -->
+<g id="node5" class="node">
+            <title>"Hl. Michael als Drachentöter"</title>
+<text text-anchor="middle" x="461" y="-40.5" style="font-family:Times New Roman;font-size:10.00px;">"Hl. Michael als Drachentöter"</text>
+</g>
+<!-- http://id.corpusvitrearum.de/images/2622&#45;&gt;&quot;Hl. Michael als Drachentöter&quot; -->
+<g id="edge4" class="edge">
+            <title>http://id.corpusvitrearum.de/images/2622-&gt;"Hl. Michael als Drachentöter"</title>
+<path style="fill:none;stroke:blue;" d="M216,-69C265,-63 324,-58 371,-52"/>
+<polygon style="fill:blue;stroke:blue;" points="371.398,-55.4778 381,-51 370.701,-48.5125 371.398,-55.4778"/>
+<text text-anchor="middle" x="275" y="-69.5" style="font-family:Times New Roman;font-size:10.00px;">dcterms:title</text>
+</g>
+</g>
+</svg>
